@@ -12,6 +12,10 @@ path = "a.rs"
 name = "oop"
 path = "src/oop.rs"
 
+[[bin]]
+name = "oop_index"
+path = "src/oop_index.rs"
+
 [dependencies]
 anyhow = "1"
 eframe = "0.33.3"
