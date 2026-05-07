@@ -1,0 +1,22 @@
+[package]
+name = "wgpu-demo"
+version = "0.1.0"
+edition = "2024"
+default-run = "wgpu-demo"
+
+[[bin]]
+name = "a"
+path = "a.rs"
+
+[[bin]]
+name = "oop"
+path = "src/oop.rs"
+
+[dependencies]
+anyhow = "1"
+eframe = "0.33.3"
+env_logger = "0.11"
+log = "0.4"
+pollster = "0.4"
+wgpu = "29.0.1"
+winit = "0.30.13"
