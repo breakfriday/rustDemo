@@ -16,6 +16,10 @@ path = "src/oop.rs"
 name = "oop_index"
 path = "src/oop_index.rs"
 
+[[bin]]
+name = "oop_new"
+path = "src/oop_new.rs"
+
 [dependencies]
 anyhow = "1"
 eframe = "0.33.3"

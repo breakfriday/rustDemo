@@ -141,4 +141,3 @@ cargo check
 - `include_bytes!("../assets/fonts/wqy-microhei.ttc")` 的路径是相对 `src/main.rs` 所在目录。
 - 如果项目需要更完整的中日韩字体覆盖，可以改用 Noto Sans CJK，但文件体积更大。
 - 如果字体许可证有分发限制，需要换成允许随应用分发的字体。
-
